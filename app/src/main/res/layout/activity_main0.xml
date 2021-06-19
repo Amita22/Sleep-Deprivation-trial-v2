@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity0">
+
+    <LinearLayout
+        android:background="#E4E5E8"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Distance Value: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/distanceID"
+                android:hint="DISTANCE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Calorie Value: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/calorieID"
+                android:hint="CALORIES"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Step Count Value: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/stepCountID"
+                android:hint="STEP COUNT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Time Sedentary: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/timeSedentaryID"
+                android:hint="TIME SEDENTARY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Time Lightly Active: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:id="@+id/timeLightlyActiveID"
+                android:hint="TIME LIGHTLY ACTIVE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Moderately Active: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/timeModeratelyActiveID"
+                android:hint="TIME MODERATELY ACTIVE"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Time Very Active: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/timeVeryActiveID"
+                android:hint="TIME VERY ACTIVE"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Composition Score: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/compositionScoreID"
+                android:hint="COMPOSITION SCORE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Revitalization Score: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/revitalizationScoreID"
+                android:hint="REVITALIZATION SCORE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Duration Score: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/durationScoreID"
+                android:hint="DURATION SCORE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Deep Sleep: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/deepSleepID"
+                android:hint="DEEP SLEEP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Resting Heart Rate: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/restingHeartRateID"
+                android:hint="RESTING HEART RATE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Restlessness Value: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/restlessnessID"
+                android:hint="RESTLESSNESS"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Sleep Efficiency: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/sleepEfficiencyID"
+                android:hint="SLEEP EFFICIENCY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:textColor="#000000"-->
+<!--                style="bold"-->
+<!--                android:textSize="20dp"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Time Asleep: "-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"/>-->
+<!--            <EditText-->
+<!--                android:inputType="number"-->
+<!--                android:maxLines="1"-->
+<!--                android:textColor="#000000"-->
+<!--                android:layout_margin="5dp"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/timeAsleepID"-->
+<!--                android:hint="TIME ASLEEP"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"/>-->
+
+<!--        </LinearLayout>-->
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Time Awake: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/timeAwakeID"
+                android:hint="TIME AWAKE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Time in Bed: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/timeInBedID"
+                android:hint="TIME IN BED"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Sleep Duration: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <EditText
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#000000"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:id="@+id/sleepDurationID"
+                android:hint="SLEEP DURATION"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:backgroundTint="#FFFFFF"
+            android:textSize="25dp"
+            android:text="NEXT"
+            android:id="@+id/nxt"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
