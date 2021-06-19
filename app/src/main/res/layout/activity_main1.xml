@@ -14,7 +14,25 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <LinearLayout
+        android:background="#F1F7FB"
+        android:layout_margin="1dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+            <TextView
+                style="bold"
+                android:layout_width="389dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:text="Note: 3-Normal, 1-2 Below Normal, 3-4 Above Normal"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </LinearLayout>
 
         <LinearLayout
             android:background="#F1F7FB"
@@ -53,27 +71,27 @@
                     android:layout_height="match_parent">
 
 
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Low"
-                        android:layout_width="80dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Medium"
-                        android:layout_width="95dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="High"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
 
 
 
@@ -124,27 +142,27 @@
                     android:layout_height="match_parent">
 
 
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Low"
-                        android:layout_width="80dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Medium"
-                        android:layout_width="95dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="High"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
 
 
 
@@ -197,27 +215,27 @@
                     android:layout_height="match_parent">
 
 
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Low"
-                        android:layout_width="80dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Medium"
-                        android:layout_width="95dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="High"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
 
 
 
@@ -267,27 +285,27 @@
                     android:layout_height="match_parent">
 
 
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Low"
-                        android:layout_width="80dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="Medium"
-                        android:layout_width="95dp"
-                        android:layout_height="match_parent"/>
-                    <TextView
-                        android:textStyle="bold"
-                        android:gravity="center"
-                        android:textSize="20dp"
-                        android:text="High"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"/>
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
 
 
 
@@ -301,16 +319,15 @@
 
 
         <Button
-            android:layout_gravity="center"
-            android:backgroundTint="#F1F7FB"
-            android:textSize="25dp"
-            android:text="PROCEED"
             android:id="@+id/btnSendToNextPage"
-            android:textStyle="bold"
-            android:layout_margin="20dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="#F1F7FB"
+            android:text="PROCEED"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
