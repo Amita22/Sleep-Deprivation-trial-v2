@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#F2F3F8"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:background="#F1F7FB"
+        android:layout_margin="1dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                style="bold"
+                android:layout_width="389dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:text="Note: 3-Normal, 1-2 Below Normal, 3-4 Above Normal"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#F1F7FB"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Stress: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RatingBar
+                    android:theme="@style/RatingBar"
+                    android:id="@+id/rateStress"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:numStars="5" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:background="#F1F7FB"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Mood: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RatingBar
+                    android:theme="@style/RatingBar"
+                    android:id="@+id/rateMood"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:numStars="5" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:background="#F1F7FB"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Fatigue: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RatingBar
+                    android:theme="@style/RatingBar"
+                    android:id="@+id/rateFatigue"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:numStars="5" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#F1F7FB"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                style="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:text="Soreness: "
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RatingBar
+                    android:theme="@style/RatingBar"
+                    android:id="@+id/rateSoreness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:numStars="5" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Low"-->
+<!--                        android:layout_width="80dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="Medium"-->
+<!--                        android:layout_width="95dp"-->
+<!--                        android:layout_height="match_parent"/>-->
+<!--                    <TextView-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:gravity="center"-->
+<!--                        android:textSize="20dp"-->
+<!--                        android:text="High"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent"/>-->
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/btnSendToNextPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:backgroundTint="#F1F7FB"
+            android:text="PROCEED"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>
